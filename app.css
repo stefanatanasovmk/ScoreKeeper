@@ -119,3 +119,12 @@ input::placeholder{
 .moreLessPointsBtn:focus{
      outline:  randomColor();
 }
+@media (max-width: 700px) {
+   
+  .container{
+       width: 100%;
+  }
+  .functions{
+       width: 100%;
+  }
+}

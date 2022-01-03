@@ -1,0 +1,121 @@
+body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(152, 240, 240, 0.24);
+     font-family: 'Ubuntu', sans-serif;
+}
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+     width: 70%;
+}
+.cardSection{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content:flex-start;
+}
+
+.forDelete{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     flex-shrink: 2;
+     height: 40px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     width: 70%;
+     margin: 3px;
+     box-shadow: 2px 2px 4px grey;
+}
+.plussbutton, .minusbutton, .deletebutton{
+     border: none;
+     width: 15%;
+}
+.nameSpan, input, input::placeholder{
+     width: 40%;
+     border: none;
+     border-radius: 10px;
+     padding: 0;
+     text-align: center;
+     font-size: large;
+}
+input::placeholder{
+     width: 100%;
+}
+.nameSpan{
+     font-size: 1.3em;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 400;
+     
+}
+
+.deletebutton{
+     background: url(deletebtn.svg) no-repeat;
+     background-size: contain;
+     background-position: center;
+}
+.plussbutton{
+     background: url(plusbtn.svg) no-repeat;
+     background-size: contain;
+     background-position: center;
+}
+.minusbutton{
+     background: url(minusbtn.svg) no-repeat;
+     background-size: contain;
+     background-position: center;
+}
+
+.scoreText{
+     text-align: center;
+     width: 15%;
+     font-size: 2em;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 400;
+}
+
+#reset{
+     padding: 20px;
+     border:none;
+     width: 30px;
+     height: 30px;
+     background: url(restart.svg) no-repeat;
+     background-size: contain;
+     background-position: center;
+}
+.functions{
+     padding-top: 20px;
+     width: 500px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+#addPlayer{
+     padding: 20px;
+     border:none;
+     width: 30px;
+     height: 30px;
+     background: url(addplayer.svg) no-repeat;
+     background-size: contain;
+     background-position: center; 
+}
+
+.moreLessPointsBtn{
+     width: 15%;
+     border-radius: 0;
+     margin: 3px;
+     font-size: 0.7em;
+     box-shadow: 2px 2px 4px grey;
+     font-family: 'Ubuntu', sans-serif;
+}
+.moreLessPointsBtn::placeholder{
+     font-size: 0.86em;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+.moreLessPointsBtn:focus{
+     outline:  randomColor();
+}

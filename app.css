@@ -127,4 +127,10 @@ input::placeholder{
   .functions{
        width: 100%;
   }
+      .moreLessPointsBtn{
+       width: 8%;
+  }
+  .forDelete{
+       width: 84%;
+  }
 }

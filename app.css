@@ -116,9 +116,6 @@ input::placeholder{
      font-family: 'Ubuntu', sans-serif;
 }
 
-.moreLessPointsBtn:focus{
-     outline:  randomColor();
-}
 @media (max-width: 700px) {
    
   .container{
